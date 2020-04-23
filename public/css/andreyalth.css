@@ -50,3 +50,26 @@ body{
     margin-left: calc(50% - 50px);
 }
 /* footer */
+
+/* Responsive */
+@media screen and (max-width: 320px){
+    .image-container{
+        height: 33vh;
+        width: 100vw;
+        background-image: url("../image/pinos.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .text-container{
+        position: absolute;
+        left: calc(50% - 90px);
+        bottom: calc(50% - 25px);
+    }
+    .text-container h1{
+        color: #fafafa;
+        font-size: 33px;
+    }
+}
+
+/* Responsive */
