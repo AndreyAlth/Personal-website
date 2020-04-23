@@ -1,0 +1,52 @@
+body{
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+/* navbar */
+.navbar a{
+    color: rgba(255,255,255,1);
+}
+.navbar span{
+    color: rgba(255,255,255,1);
+}
+/* navbar */
+
+/* Hero */
+.container-fluid{
+    padding: 0;
+}
+
+.image-container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../image/pinos.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-container{
+    position: absolute;
+    left: calc(50% - 273.35px);
+    bottom: calc(50% - 75px);
+}
+.text-container h1{
+    color: #fafafa;
+    font-size: 100px;
+}
+/* Hero */
+
+/* projects */
+.table a{
+    color: #181818;
+}
+.table a:hover{
+    text-decoration: underline;
+}
+/* projects */
+
+/* footer */
+.footer .container .row{
+    margin-left: calc(50% - 50px);
+}
+/* footer */

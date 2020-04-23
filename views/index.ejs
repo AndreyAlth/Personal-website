@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- external css -->
+    <%- include('partials/head') %>
+    <!-- external css -->
+    <title>AndreyAlth</title>
+</head>
+<body>
+    
+    <!-- navbar -->
+    <%- include('partials/header')%>
+    <!-- navbar -->
+    
+    <!-- hero -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col" style="position: relative;">
+                <div class="image-container">
+                </div>
+                <div class="text-container">
+                    <h1>AndreyAlth</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- hero -->
+
+    <!-- Projects -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col text-center mt-3">
+                    <h3 class="proyectos">Popular proyects</h3>
+                </div>
+            </div>
+            <table class="table table-hover mt-4">
+                <thead>
+                <tr>
+                    <th scope="col">Title</th>
+                    <th scope="col">Description</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <a href="/home/blogs">
+                        <tr>
+                            <th scope="row">
+                                <a href="">Personal Website</a>
+                            </th>
+                            <td>Simple blog website</td>
+                        </tr>
+                    </a>
+                <!-- <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td colspan="2">Larry the Bird</td>
+                </tr> -->
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <!-- Projects -->
+
+<!-- blogs -->
+<section class="ftco-section" id="blog-section">
+	<div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+            <div class="col-md-7 heading-section text-center ftco-animate">
+                <h1 class="big big-2">Blog</h1>
+                <h2 class="mb-4">Blogs</h2>
+                <p>Learn software development, business strategy. Filming the process</p>
+            </div>
+        </div>
+        <div class="row d-flex">
+            <div class="col-md-4 d-flex ftco-animate">
+                <div class="blog-entry justify-content-end">
+                    <a href="/home/blogs" class="block-20" style="background-image: url('images/negocio1.jpg');">
+                    </a>
+                    <div class="text mt-3 float-right d-block">
+                    <h3 class="heading"><a href="/home/blogs">Business strategies</a></h3>
+                    <!-- <div class="d-flex align-items-center mb-3 meta">
+                        <p class="mb-0">
+                            <span class="mr-2">Sept. 12, 2019</span>
+                            <a href="#" class="mr-2">Admin</a>
+                            <a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
+                        </p>
+                    </div> -->
+                    <p>Some strategies That I learned and you can aplply</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex ftco-animate">
+                <div class="blog-entry justify-content-end">
+                    <a href="/home/blogs" class="block-20" style="background-image: url('images/negocio2.jpeg');">
+                    </a>
+                    <div class="text mt-3 float-right d-block">
+                    <h3 class="heading"><a href="/home/blogs">Analysis</a></h3>
+                    <!-- <div class="d-flex align-items-center mb-3 meta">
+                        <p class="mb-0">
+                            <span class="mr-2">Sept. 12, 2019</span>
+                            <a href="#" class="mr-2">Admin</a>
+                            <a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
+                        </p>
+                    </div> -->
+                    <p>Learn how to implement tools to get data from your users</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex ftco-animate">
+                <div class="blog-entry">
+                    <a href="/home/blogs" class="block-20" style="background-image: url('images/negocio3.jpeg');">
+                    </a>
+                    <div class="text mt-3 float-right d-block">
+                    <h3 class="heading"><a href="/home/blogs">Get clients</a></h3>
+                    <!-- <div class="d-flex align-items-center mb-3 meta">
+                        <p class="mb-0">
+                            <span class="mr-2">Sept. 12, 2019</span>
+                            <a href="#" class="mr-2">Admin</a>
+                            <a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
+                        </p>
+                    </div> -->
+                    <p>How to reach more people and turn into clients</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</div>
+</section>
+<!-- blogs -->
+
+<%- include('partials/footer') %>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
